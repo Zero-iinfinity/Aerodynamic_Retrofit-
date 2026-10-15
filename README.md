@@ -67,7 +67,7 @@ The baseline and modified configurations are evaluated using the methods impleme
 
 The configurations are compared using relevant metrics, including:
 
-- Maximum power coefficient (\(C_{p,\max}\))
+- Maximum power coefficient $(C_{p,\max})$
 - Rotor power
 - Tip-speed ratio (TSR), where available
 - Aerodynamic characteristics, where evaluated
@@ -82,24 +82,24 @@ The following values represent the reported results for the configurations studi
 
 | Performance Metric | Baseline | With Vortex Generator |
 |---|---:|---:|
-| Maximum Power Coefficient ($(C_{p,\max}$)) | 0.1004 | 0.1202 |
+| Maximum Power Coefficient $(C_{p,\max}$) | 0.1004 | 0.1202 |
 | Reported Rotor Power | 1.195 W | 1.431 W |
 
 ### Relative Improvement in Maximum Power Coefficient
 
 The relative improvement is calculated as:
 
-$
+$$
 \frac{0.1202-0.1004}{0.1004}\times100
-=19.72\%
-$
+=19.72%
+$$
 
 ### Relative Improvement in Reported Rotor Power
 
-\[
+$$
 \frac{1.431-1.195}{1.195}\times100
-\approx19.75\%
-\]
+\approx19.75%
+$$
 
 These results indicate an improvement in the reported performance metrics for the studied configuration. The results should be interpreted in the context of the specific modelling or experimental conditions used. Further validation is required before generalizing the findings to other turbines or real-world operating conditions.
 
@@ -123,42 +123,6 @@ The project is aligned with the following United Nations Sustainable Development
 
 Application in Mizoram and other hilly regions would require local wind-resource assessment, site suitability analysis, and field validation.
 
-## Repository Structure
-
-The repository may be organized as follows:
-
-```text
-ADDITIVE-AERO/
-├── CAD/
-│   ├── blade_geometry/
-│   └── vortex_generator/
-├── Simulation/
-│   ├── baseline/
-│   └── vortex_generator/
-├── Results/
-│   ├── performance_comparison/
-│   └── plots/
-├── Documentation/
-│   ├── methodology.md
-│   └── references.md
-├── Images/
-├── README.md
-└── LICENSE
-```
-
-The directory structure can be adapted to match the actual files included in the repository.
-
-## Tools and Technologies
-
-- CAD modelling software: [Insert software used]
-- Aerodynamic analysis: [Insert simulation or experimental tools used]
-- Additive manufacturing: 3D printing
-- Airfoil geometry: NACA 0018
-- Data analysis and visualization: [Insert tools used]
-- Version control: Git and GitHub
-
-Only tools actually used in the project should be listed.
-
 ## Limitations and Future Work
 
 The current results apply to the configuration and conditions evaluated in the study. Additional work is needed to establish robustness and practical applicability.
@@ -173,32 +137,10 @@ Potential future work includes:
 - Assessing long-term durability under outdoor conditions.
 - Performing a cost-benefit analysis using measured energy production and manufacturing costs.
 
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
-```
-
-Open the CAD files using the relevant CAD software. For simulation-based work, use the corresponding solver and configuration files included in the repository.
-
-If the repository contains scripts or notebooks, follow the installation and execution instructions documented in their respective directories.
-
-## Project Documentation
-
-- **CAD Files:** [Insert link]
-- **Simulation Files:** [Insert link]
-- **Performance Results:** [Insert link]
-- **Project Report:** [Insert link]
-- **Demonstration Video:** [Insert link]
-
 ## Contributors
 
-- [Your Name] — [Project role]
-- [Contributor Name] — [Project role]
-- [Contributor Name] — [Project role]
+- Nancy Yadav — Mechanical / Aerodynamic Analysis
+- R Vanlalmalsawmi — Design / Experimental work
 
 **Institution:** National Institute of Technology Mizoram
 
