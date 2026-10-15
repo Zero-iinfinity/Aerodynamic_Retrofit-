@@ -82,17 +82,17 @@ The following values represent the reported results for the configurations studi
 
 | Performance Metric | Baseline | With Vortex Generator |
 |---|---:|---:|
-| Maximum Power Coefficient (\(C_{p,\max}\)) | 0.1004 | 0.1202 |
+| Maximum Power Coefficient ($(C_{p,\max}$)) | 0.1004 | 0.1202 |
 | Reported Rotor Power | 1.195 W | 1.431 W |
 
 ### Relative Improvement in Maximum Power Coefficient
 
 The relative improvement is calculated as:
 
-\[
+$
 \frac{0.1202-0.1004}{0.1004}\times100
 =19.72\%
-\]
+$
 
 ### Relative Improvement in Reported Rotor Power
 
